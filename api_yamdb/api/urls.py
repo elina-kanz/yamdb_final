@@ -20,6 +20,7 @@ router_v1.register(r"users", UsersModelViewSet, basename="User")
 
 auth_urlpatterns = [
     path("signup/", RegistrationAPIView.as_view()),
+
     path("token/", UserTokenView.as_view()),
 ]
 
