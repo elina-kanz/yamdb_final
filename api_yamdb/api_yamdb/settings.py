@@ -16,7 +16,6 @@ ALLOWED_HOSTS = ['158.160.18.179', '127.0.0.1']
 
 DEFAULT_MAIL = "organisation_mail@mail.com"
 
-# Application definition
 AUTH_USER_MODEL = "users.User"
 
 INSTALLED_APPS = [
