@@ -12,7 +12,7 @@ SECRET_KEY = os.getenv("SECRET_KEY", default='secret')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['158.160.29.94', '127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['158.160.3.120', '127.0.0.1', 'localhost']
 
 DEFAULT_MAIL = "organisation_mail@mail.com"
 
